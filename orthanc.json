@@ -24,9 +24,5 @@
     "EnableWado": true,
     "EnableQido": true,
     "EnableStow": true
-  },
-  
-  "ExtraMainDicomTags": {
-    "Study": ["ModalitiesInStudy"]
   }
 }
