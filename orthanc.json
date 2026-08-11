@@ -9,6 +9,7 @@
   },
   "RemoteAccessAllowed": true,
   "MaximumStorageCacheSize":64,
+  "HttpThreadsCount": 10,
 
   "DicomServerEnabled": false,
   "HttpServerEnabled": true,
