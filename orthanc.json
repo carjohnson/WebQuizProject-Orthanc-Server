@@ -25,6 +25,8 @@
     "Root": "/dicom-web/",
     "EnableWado": true,
     "EnableQido": true,
-    "EnableStow": true
+    "EnableStow": true,
+    "StudiesMetadata": "MainDicomTags",
+    "SeriesMetadata": "MainDicomTags"
   }
 }
