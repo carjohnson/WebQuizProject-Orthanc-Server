@@ -9,8 +9,9 @@
   },
   "RemoteAccessAllowed": true,
   "MaximumStorageCacheSize":64,
-  "HttpThreadsCount": 10,
-
+  "MALLOC_MMAP_THRESHOLD_": 131072,
+  "MALLOC_TRIM_THRESHOLD_": 131072,
+  "MALLOC_ARENA_MAX":2, 
   "DicomServerEnabled": false,
   "HttpServerEnabled": true,
   "HttpPort": 8042,
@@ -25,8 +26,6 @@
     "Root": "/dicom-web/",
     "EnableWado": true,
     "EnableQido": true,
-    "EnableStow": true,
-    "StudiesMetadata": "MainDicomTags",
-    "SeriesMetadata": "MainDicomTags"
+    "EnableStow": true
   }
 }
