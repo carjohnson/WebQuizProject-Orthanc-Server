@@ -8,7 +8,7 @@
     "${ORTHANC_USER}": "${ORTHANC_PASS}"
   },
   "RemoteAccessAllowed": true,
-  "MaximumStorageCacheSize":64,
+  "MaximumStorageCacheSize":0,
   "DicomServerEnabled": false,
   "HttpServerEnabled": true,
   "HttpPort": 8042,
